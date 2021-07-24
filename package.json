@@ -1,0 +1,32 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "RESTFULL api used in notes application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeSilva-dev/Ideafix-notes.git"
+  },
+  "keywords": [
+    "notes",
+    "app-notes",
+    "google-notes",
+    "evernote",
+    "note-app",
+    "notes-app"
+  ],
+  "author": "Felipe Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeSilva-dev/Ideafix-notes/issues"
+  },
+  "homepage": "https://github.com/FeSilva-dev/Ideafix-notes#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
