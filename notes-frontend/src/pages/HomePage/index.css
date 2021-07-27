@@ -4,3 +4,12 @@
   flex: 1;
   gap: 20px;
 }
+
+@media(max-width: 768px){
+  #notes-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+}

@@ -72,3 +72,18 @@
 .button-submit button:hover{
   background-color: rgb(252, 167, 56);
 }
+
+@media(max-width: 768px){
+  #notes{
+    width: 100%;
+    height: auto;
+  }
+
+  .notes-container{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border: 0;
+  }
+}
