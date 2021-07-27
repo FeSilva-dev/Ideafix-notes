@@ -8,13 +8,13 @@ export const ApiNotes = {
   },
 
   showNotes: async () => {
-    const response = await Api.post('/notes/show');
+    const response = await Api.get('/notes/show');
 
     return response.data;
   },
 
   deleteNote: async (id) => {
-    const response = await Api.post(`/notes/delete/${id}`);
+    const response = await Api.delete(`/notes/delete/${id}`);
 
     return response.data;
   }
