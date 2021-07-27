@@ -26,3 +26,25 @@ $ yarn run dev
 
 # O servidor inciará na porta 3333 - url <http://localhost:3333>
 ```
+
+### API's
+
+#### NotesApi
+- Criar uma nota
+  - Método `POST`
+  - URL `/notes/create`
+  - Body
+  ```
+  {
+    "title": "Titulo da nota",
+    "body": "Corpo da nota"
+  }
+  ```
+  
+- Listar todas as notas
+    - Método `GET`
+    - URL `/notes/show`
+
+- Deletar uma nota pelo ID
+    - Método `DELETE`
+    - URL `/notes/delete/:id`
