@@ -1,0 +1,61 @@
+#notes-cards{
+  margin-top: 5rem;
+  width: 65%;
+  padding: 0 1rem;
+}
+
+.notes-cards-title h1{
+  font-size: 2.2rem;
+  color: rgb(132, 14, 243);
+  font-weight: 600;
+}
+
+.container{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.note-single{
+  padding: 20px 25px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 10px;
+  position: relative;
+}
+
+.remove-icon{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+.remove-icon button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border-radius: 50%;
+  background-color: rgb(117, 117, 117);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.note-single .title-note{
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px dashed rgb(139, 139, 139);
+}
+
+.note-single .title-note h3{
+  color: rgb(11, 194, 194);
+}
+
+.note-single .body-note{
+  margin: 5px 0;
+  color: #646464;
+}
